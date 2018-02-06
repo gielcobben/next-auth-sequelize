@@ -1,0 +1,33 @@
+{
+  "name": "next-auth-sequelize",
+  "version": "1.0.0",
+  "description": "An example project for next-auth with Sequelize",
+  "repository": "",
+  "main": "",
+  "scripts": {
+    "dev": "NODE_ENV=development node index.js",
+    "build": "next build",
+    "start": "node index.js"
+  },
+  "author": "Giel Cobben <g.cobben@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "connect-session-sequelize": "^5.2.0",
+    "dotenv": "^4.0.0",
+    "express-mysql-session": "^1.2.3",
+    "mysql2": "^1.5.2",
+    "nedb": "^1.8.0",
+    "next": "^4.2.3",
+    "next-auth": "^1.4.0",
+    "next-auth-client": "^1.1.1",
+    "nodemailer": "^4.4.2",
+    "nodemailer-direct-transport": "^3.3.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sequelize": "^4.32.7"
+  }
+}
