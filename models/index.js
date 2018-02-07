@@ -15,6 +15,9 @@ const sequelize = new Sequelize(
       underscored: true,
       underscoreAll: true,
       underscoredAll: true,
+      charset: "utf8mb4",
+      collate: "utf8mb4_unicode_ci",
+      timestamps: true,
     },
   },
 );
